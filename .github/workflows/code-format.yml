@@ -13,11 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:          
-          ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v3  
         with:
-          node-version: '20.x'
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
       # Other steps that change files in the repository
       - run: npm ci
       - run: npm run format
@@ -27,4 +27,3 @@ jobs:
         with:
           commit_message: Apply formating changes
           branch: ${{ github.head_ref }}
-        
