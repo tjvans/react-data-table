@@ -18,5 +18,5 @@ export default function FilterableProductTable ({products}) {
                 filterText={filterText}
                 inStockOnly={inStockOnly} />
         </div>
-    );
+    )
 }
