@@ -4,4 +4,4 @@ on: push
 
 jobs:
   format-code:
-    uses: git@github.com:tjvans/github-config/.github/workflows/code-format.yml@main
+    uses: git@github.com:tjvans/github-config/.github/workflows/code-format.yml
