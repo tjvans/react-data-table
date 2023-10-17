@@ -20,5 +20,5 @@ export default function FilterableProductTable({ products }) {
         inStockOnly={inStockOnly}
       />
     </div>
-  )
+  );
 }
